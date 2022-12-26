@@ -14,8 +14,12 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-
+import numpy as np
+A= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+eigenvalues , eigenvectors =np.linalg.eig(A)
+print('Eigen values are',eigenvalues,'and Eigen Vectors are',eigenvectors)
 ## Output:
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
