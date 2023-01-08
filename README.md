@@ -16,9 +16,10 @@ End the program
 ## Program:
 ```
 import numpy as np
-A= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-eigenvalues , eigenvectors =np.linalg.eig(A)
-print('Eigen values are',eigenvalues,'and Eigen Vectors are',eigenvectors)
+A=np.array([[1,-3],[3,1]])
+B=np.array([0,10])
+sol=np.linalg.solve(A,B)
+print(sol)
 ```
 ## Output:
 ![linear](linearequation.png)
